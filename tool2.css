@@ -1,0 +1,161 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  height: 500px;
+  background: rgb(6, 0, 29);
+}
+.navtop {
+  position: relative;
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.icon {
+  display: flex;
+  margin: 0 10px;
+}
+
+.icon li a {
+  margin: 0 10px;
+  line-height: 60px;
+  font-size: 14px;
+  color: white;
+}
+
+.icon li a:hover {
+  border-bottom: 1px solid white;
+  padding: 0 0 10px 0;
+}
+
+.icon2 img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  top: 25px;
+  right: 0;
+}
+.navtop > div > div > h1 {
+  font-size: 45px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: white;
+}
+
+.navtop > div > div {
+  position: relative;
+}
+.navtop > div > div > input {
+  width: 900px;
+  height: 80px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  border-radius: 0%;
+  text-indent: 180px;
+  color: black;
+}
+.navtop > div > div > input::placeholder {
+  font-size: 18px;
+  color: rgb(139, 139, 139);
+}
+.button {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.button span {
+  font-size: 18px;
+  margin: 0 20px 0 0;
+  color: rgb(139, 139, 139);
+}
+
+.button span::after {
+  content: "";
+  width: 7px; /* 사이즈 */
+  height: 7px; /* 사이즈 */
+  border-top: 1px solid rgb(139, 139, 139); /* 선 두께 */
+  border-right: 1px solid rgb(139, 139, 139); /* 선 두께 */
+  display: inline-block;
+  transform: rotate(135deg); /* 각도 */
+  position: absolute;
+  top: 33px; /* 기본 0px 값으로 해주세요 */
+  left: 110px; /* 기본 0px 값으로 해주세요 */
+}
+.button > button:nth-child(1):hover {
+  background-color: rgb(139, 139, 139 ,0.3);
+
+}
+
+.button > button:nth-child(1) {
+  position: absolute;
+  left: 150px;
+  top: 98px;
+  width: 150px;
+  height: 75px;
+  background: white;
+  border-right: 1px solid rgb(139, 139, 139);
+}
+.button > button:nth-child(2) {
+  position: absolute;
+  top: 98px;
+  right: 152px;
+  width: 75px;
+  height: 75px;
+  background: rgb(6, 0, 29);
+}
+
+.button > button:nth-child(2) img {
+  width: 20px;
+}
+
+.main {
+  width: 100%;
+  height: 1000px;
+  background: rgb(202, 202, 202);
+}
+
+.main .tum {
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.main .tum > div {
+  color: white;
+  display: flex;
+  padding: 40px 0 0 0;
+  justify-content: center;
+  font-size: 38px;
+  text-align: center;
+}
+.content {
+    width: 1200px;
+    margin:0 auto;
+}
+.content ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+  }
+  .content li img {
+    padding: 0 7px 0 5px;
+    width: 368px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center top;
+    -webkit-transition: all 0.2s ease-out;
+  }
+  
+  .content li img:hover {
+    filter: brightness(70%) blur(0.7px);
+    -webkit-transform: scale(1.1);
