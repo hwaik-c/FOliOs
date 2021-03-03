@@ -105,7 +105,7 @@
 
 .article {
   width: 100%;
-  background: url(https://hwaik-c.github.io/FOliOs/asicstm.jpg) no-repeat center;
+  background-image: url(asicstm.jpg) no-repeat center;
   background-size: 1920px;
   opacity: 0.9;
 }
