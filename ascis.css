@@ -103,13 +103,13 @@
   right: 150px;
 }
 
-.article {
+/* .article {
   width: 100%;
   background-image: url(asicstm.jpg) no-repeat center;
   background-size: 1920px;
   opacity: 0.9;
 }
-
+ */
 .article img {
   width: 100%;
   background-image: url(asicstm.jpg) no-repeat center;
