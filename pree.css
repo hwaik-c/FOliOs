@@ -70,7 +70,7 @@
   border-bottom: 4px solid #1764dc;
   color: #3c91f3;
   height: 95px;
-  background: url(../index_images/bg_lnb.gif) no-repeat center 87px;
+  background: url(bg_lnb.gif) no-repeat center 87px;
 }
 
 #header p {
@@ -94,8 +94,7 @@
   display: inline-block;
   height: 40px;
   width: 75px;
-  background: url(../index_images/bu_arrow_down.gif) no-repeat 55px center
-    #2cc06b;
+  background: url(bu_arrow_down.gif) no-repeat 55px center #2cc06b;
   vertical-align: middle;
   font-size: 13px;
   line-height: 40px;
@@ -107,7 +106,7 @@
 }
 
 #visual {
-  background: url(../index_images/bg_visual.jpg) no-repeat center top;
+  background: url(bg_visual.jpg) no-repeat center top;
 }
 
 #visual > div {
@@ -140,7 +139,7 @@
 }
 
 #visual .copy .txt2 {
-  background: url(../index_images/bg_circle.png) no-repeat center;
+  background: url(bg_circle.png) no-repeat center;
   width: 399px;
   height: 264px;
   font-size: 20px;
@@ -221,7 +220,7 @@
   font-size: 14px;
   display: block;
   padding: 0 0 0 18px;
-  background: url(../index_images/bu_circle.png) no-repeat left;
+  background: url(bu_circle.png) no-repeat left;
   line-height: 22px;
 }
 
@@ -229,7 +228,7 @@
   position: absolute;
   left: 38px;
   top: 28px;
-  background: url(../index_images/bg_line.gif) no-repeat center 34px;
+  background: url(bg_line.gif) no-repeat center 34px;
 }
 #visual .btm .event div a {
   display: block;
