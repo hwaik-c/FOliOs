@@ -1,0 +1,49 @@
+#banner {
+  background-color: #0e3c84;
+  height: 160px;
+}
+
+#banner > div {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+#banner .left,
+#banner .right,
+#banner .control,
+#banner .close {
+  position: absolute;
+}
+
+#banner .left {
+  left: 0;
+  top: 42px;
+}
+
+#banner .right {
+  right: 0;
+  top: 42px;
+}
+
+#banner .control {
+  left: 0;
+  bottom: 11px;
+  font-size: 0;
+}
+
+#banner .control a {
+  margin: 0 12px 0 0;
+}
+
+#banner .close {
+  right: 0;
+  bottom: 7px;
+}
+
+#banner .close label {
+  font-size: 11px;
+  color: white;
+  padding-right: 8px;
+}

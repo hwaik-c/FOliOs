@@ -1,0 +1,270 @@
+.body {
+  width: 100%;
+}
+.user {
+  background: rgb(240, 240, 240);
+  width: 100%;
+  height: 40px;
+}
+
+.user img {
+  width: 20px;
+  height: 25px;
+}
+
+.user ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  line-height: 40px;
+  padding: 0 38px 0 38px;
+  font-size: 13px;
+  width: 1800px;
+  margin: 0 auto;
+}
+
+.user div li {
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.user div li ::after {
+  content: "";
+  width: 1px;
+  height: 10px;
+  background: #333;
+  top: 15px;
+  margin: 0 10px;
+  display: inline-block;
+  position: absolute;
+}
+
+.menu {
+  position: relative;
+  width: 1880px;
+  margin: 0 auto;
+  height: 70px;
+}
+.menu img {
+  position: absolute;
+  left: 38px;
+  width: 70px;
+  height: 30px;
+  padding: 20px 0px;
+}
+
+.menu .txt1 {
+  display: flex;
+  list-style: none;
+  border-style: none;
+  flex-flow: row nowrap;
+  justify-content: center;
+  line-height: 70px;
+  padding: 0 0 0 38px;
+  font-size: 17px;
+}
+.menu .txt1 > li {
+  position: relative;
+  left: -20px;
+  padding: 0 25px;
+}
+.txt1 li a:hover {
+  padding-bottom: 21px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.nth {
+  color: red;
+}
+
+.txt2 > ul li {
+  display: inline-block;
+}
+.menu .txt2 {
+  position: absolute;
+  right: 38px;
+}
+.menu .txt3 {
+  padding: 0 10px;
+}
+.menu .txt3 img {
+  position: absolute;
+
+  width: 30px;
+  height: 30px;
+  left: -60px;
+  top: 2px;
+  border-style: none;
+}
+.menu .txt4 img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 5px;
+  top: 2px;
+  border-style: none;
+}
+
+.menu .txt4 {
+  padding: 0 0 0 10px;
+}
+.btn {
+  position: absolute;
+  top: 15px;
+  right: 170px;
+  width: 200px;
+  height: 40px;
+  font-size: 17px;
+  text-indent: 18%;
+  line-height: 40px;
+  color: black;
+  border-radius: 20px;
+  background: rgb(240, 240, 240);
+}
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content #square {
+  width: 100%;
+  margin: 0 auto;
+  height: 650px;
+  background-color: bisque;
+  background: url(main.jpg) no-repeat center;
+}
+
+.content h1 {
+  color: black;
+  width: 1880px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.content ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.content li img {
+  padding: 0 7px 0 5px;
+  width: 368px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center top;
+  -webkit-transition: all 0.2s ease-out;
+}
+
+.content li img:hover {
+  filter: brightness(70%) blur(0.7px);
+  -webkit-transform: scale(1.1);
+}
+.subtop {
+  width: 100%;
+  position: relative;
+  margin: 10px 0 0 0;
+}
+
+.contentsub img {
+  margin: 60px 0 20px 20px;
+  width: 250px;
+  height: 100px;
+}
+.contentsub {
+  background: rgb(240, 240, 240);
+  width: 1900px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  font-size: 80px;
+  color: red;
+  line-height: 120px;
+  letter-spacing: -5px;
+}
+.footer {
+  background: black;
+  width: 1900px;
+  margin: 0 auto;
+  height: 150px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.footer .foot li a {
+  color: rgb(202, 202, 202);
+}
+.foot {
+  margin: 10px 0 0 0;
+}
+.foot li {
+  margin: 5px 100px;
+}
+.foot .f1 {
+  float: left;
+}
+
+.foot .f2 {
+  float: left;
+}
+.foot .f3 {
+  float: left;
+}
+.link {
+  display: block;
+  font-size: 14px;
+  padding: 15px 0;
+}
+/*base code*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+/*the animation definition*/
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    -ms-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}

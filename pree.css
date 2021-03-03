@@ -1,0 +1,281 @@
+#banner {
+  height: 160px;
+  background: #0e3c84;
+}
+#banner > div {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+#banner .left,
+#banner .right,
+#banner .control,
+#banner .close {
+  position: absolute;
+}
+#banner .left {
+  left: 0;
+  top: 42px;
+}
+#banner .right {
+  right: 0;
+  top: 42px;
+}
+#banner .control {
+  left: 0;
+  bottom: 11px;
+  font-size: 0;
+}
+#banner .control a {
+  margin: 0 15px 0 0;
+}
+#banner .close {
+  right: 0;
+  bottom: 4px;
+}
+#banner .close label {
+  padding: 0 22px 0 0;
+  font-size: 11px;
+  color: white;
+}
+
+#header {
+  height: 99px;
+  border-bottom: 1px solid #c5c5c5;
+}
+#header > div {
+  width: 1200px;
+  margin: 0 auto;
+}
+#header > div > * {
+  float: left;
+}
+#lnb li {
+  display: inline-block;
+  padding: 0 16px;
+}
+
+#header h1 {
+  padding: 0 20px 0 0;
+}
+#lnb li a {
+  display: block;
+  height: 99px;
+  line-height: 99px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#lnb li a:hover {
+  border-bottom: 4px solid #1764dc;
+  color: #3c91f3;
+  height: 95px;
+  background: url(../index_images/bg_lnb.gif) no-repeat center 87px;
+}
+
+#header p {
+  height: 99px;
+  line-height: 99px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #0e3c84;
+  float: left;
+}
+
+#header p span {
+  color: #1764dc;
+}
+#header > div > div > div {
+  float: left;
+  padding: 30px 0 0 11px;
+  font-size: 0px;
+}
+#header .pp {
+  display: inline-block;
+  height: 40px;
+  width: 75px;
+  background: url(../index_images/bu_arrow_down.gif) no-repeat 55px center
+    #2cc06b;
+  vertical-align: middle;
+  font-size: 13px;
+  line-height: 40px;
+  color: white;
+  text-indent: 9px;
+}
+#header > div > div {
+  float: right;
+}
+
+#visual {
+  background: url(../index_images/bg_visual.jpg) no-repeat center top;
+}
+
+#visual > div {
+  width: 1200px;
+  margin: 0 auto;
+}
+#visual .copy {
+  padding: 40px 0 0 0;
+}
+#visual .copy > div {
+  float: left;
+  width: 33.33%;
+}
+#visual .copy .txt1 {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 12px;
+  padding: 127px 0 0 0;
+}
+#visual .copy .txt1 img {
+  margin: 0 22px 0 8px;
+}
+
+#visual .copy .txt1 div {
+  font-size: 33px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+
+#visual .copy .txt2 {
+  background: url(../index_images/bg_circle.png) no-repeat center;
+  width: 399px;
+  height: 264px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 80px 0 0 0;
+}
+#visual .copy .txt2 > div {
+  font-size: 135px;
+  color: white;
+}
+
+#visual .copy .txt3 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 15px;
+  padding: 109px 37px 0 0;
+  float: right;
+  width: 322px;
+}
+
+#visual .copy .txt3 > div {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 7px;
+}
+#visual .paging {
+  text-align: center;
+  padding: 27px 0 16px 0;
+}
+#visual .paging div {
+  padding: 17px;
+}
+#visual .paging ul {
+  display: inline-block;
+  font-size: 0px;
+}
+#visual .paging li {
+  display: inline-block;
+  margin: 0 7px;
+}
+
+#visual .paging p {
+  display: inline-block;
+  margin: 0 7px;
+  font-size: 0px;
+}
+#visual .btm h2 {
+  width: 100px;
+  height: 67px;
+  background: #f13009;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 33px 0 0 0;
+  float: left;
+}
+
+#visual .btm .event {
+  float: left;
+  width: 730px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0 80px;
+  position: relative;
+}
+#visual .btm .event li {
+  float: left;
+  width: 50%;
+}
+#visual .btm .event ul {
+  padding: 34px;
+}
+
+#visual .btm .event li a {
+  color: white;
+  font-size: 14px;
+  display: block;
+  padding: 0 0 0 18px;
+  background: url(../index_images/bu_circle.png) no-repeat left;
+  line-height: 22px;
+}
+
+#visual .btm .event div {
+  position: absolute;
+  left: 38px;
+  top: 28px;
+  background: url(../index_images/bg_line.gif) no-repeat center 34px;
+}
+#visual .btm .event div a {
+  display: block;
+  margin: 0 0 32px 0;
+}
+
+#visual .btm .weather {
+  float: right;
+  position: relative;
+  padding: 0 43px;
+  width: 124px;
+  height: 100px;
+  background: #23b963;
+}
+
+#visual .btm .weather > a {
+  position: absolute;
+  top: 50%;
+  margin-top: -6.5px;
+}
+
+#visual .btm .weather > a.left {
+  left: 19px;
+}
+
+#visual .btm .weather > a.right {
+  right: 19px;
+}
+
+#visual .btm .weather h3 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 10px 0 8px 0;
+}
+#visual .btm .weather > div {
+  position: relative;
+  padding: 0 0 0 66px;
+  color: white;
+}
+#visual .btm .weather > div > div {
+  font-size: 27px;
+}
+
+#visual .btm .weather > div img {
+  position: absolute;
+  left: 3px;
+  top: 0;
+}

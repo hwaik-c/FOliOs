@@ -1,0 +1,55 @@
+body {
+  width: 692px;
+  height: 671px;
+}
+#head {
+  background: url(https://www.elegantthemes.com/blog/wp-content/uploads/2020/02/000-Online-Code-Editors.png)
+    no-repeat center;
+  width: 692px;
+  height: 671px;
+  position: relative;
+}
+
+#head .top p {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  right: 57px;
+  top: 245px;
+}
+
+#head .middle {
+  width: 392px;
+  height: 153px;
+  background-color: white;
+  position: absolute;
+  top: 330px;
+  left: 300px;
+}
+#head .middle .txt1 {
+  display: inline-block;
+  position: relative;
+  margin: 51px 0 0 24px;
+  padding: 0 0 8px 0;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+#head .middle .txt2 {
+  position: absolute;
+  left: 24px;
+  top: 87px;
+}
+
+#head .middle .txt3 {
+  float: right;
+  color: #57613c;
+  font-size: 30px;
+  margin: 35px 65px 0 0px;
+}
+#head .logo {
+  padding: 580px 0 0 300px;
+}
