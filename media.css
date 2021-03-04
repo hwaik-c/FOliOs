@@ -99,6 +99,11 @@ footer {
     width: 100%;
     height: 300px;
   }
+  article div:nth-child(1) {
+    height: 300px;
+    background: url(shose5.jpg) no-repeat center;
+    background-size: 100%;
+  }
   aside {
     width: 100%;
     height: 300px;
