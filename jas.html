@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--     <script src="nike.js"></script> -->
+    <title>Document</title>
+<style>
+body > input {
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    background-color: #333;
+    color: white;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+}   
+.lis {
+list-style: none;
+font-size: 18px;
+}
+</style>
+</head>
+<body>
+
+    <input type="button" value="night" onclick="
+    let target = document.querySelector('body');
+    if(this.value === 'night'){
+    target.style.backgroundColor = 'black';
+    target.style.color = 'white';
+    this.value = 'day';
+
+        let links = document.querySelectorAll('a');
+        let i = 0;
+        while(i<links.length){
+        links[i].style.color='powderblue';
+        i=i+1;
+
+    }
+
+    } else {
+    target.style.backgroundColor = 'white';
+    target.style.color = 'black';
+    this.value = 'night';
+
+        let links = document.querySelectorAll('a');
+        let i = 0;
+        while(i<links.length){
+        links[i].style.color='blue';
+        i=i+1; 
+        }
+    }
+">
+
+    <h1>범내려온다 두둥</h1>
+    <a href="#a">가나다라마바사</a>
+    <a href="#a">가나다라마바사</a>
+    <a href="#a">가나다라마바사</a>
+    <a href="#a">가나다라마바사</a>
+        <a href="#a">가나다라마바사</a>
+    <script>
+    document.write ('<br>가나다라');
+    </script>
+    <div class="lis">
+        <script>
+            let rkskek = ['이게뭐양 헷갈리자낭','안궁금해'];
+            let i = 0;
+            while(i<5) {
+                document.write ('<li>'+rkskek[i]+'</li>');
+                i = i+1;
+            }
+
+        </script>
+    </div>
+
+    
+</body>
+</html>

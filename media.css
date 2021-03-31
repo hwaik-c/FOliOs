@@ -65,6 +65,7 @@ article a {
 article div:nth-child(1) {
   height: 500px;
   background: url(shose5.jpg) no-repeat center;
+  background-size: 900px;
 }
 
 aside {

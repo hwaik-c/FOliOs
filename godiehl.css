@@ -1,0 +1,153 @@
+header {
+  background-color: black;
+  width: 1600px;
+  height: 300px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  line-height: 300px;
+  font-size: 60px;
+}
+
+.navv {
+  position: relative;
+  width: 1600px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: blueviolet;
+}
+
+.navv .img {
+  position: absolute;
+  left: 25px;
+  font-weight: bold;
+}
+.navv ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  line-height: 50px;
+  font-size: 16px;
+}
+
+.navv ul li {
+  padding: 0 20px;
+  color: black;
+}
+
+.article {
+  width: 1600px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.article .art {
+  width: 30%;
+  height: 500px;
+  float: left;
+  background-color: crimson;
+}
+.art > div:nth-child(1) {
+  width: 90%;
+  color: white;
+  font-size: 14px;
+  margin: 0 auto;
+  line-height: 26px;
+  margin-top: 12px;
+}
+
+.article .art2 {
+  float: left;
+  width: 70%;
+  height: 500px;
+  background-color: rgb(196, 76, 100);
+}
+
+.art2 > div:nth-child(1) {
+  width: 95%;
+  height: 46%;
+  font-size: 14px;
+  color: white;
+  margin: 15px auto;
+}
+
+.art2 > div:nth-child(2) {
+  width: 95%;
+  height: 46%;
+  font-size: 14px;
+  color: white;
+  margin: 10px auto;
+}
+
+footer {
+  width: 1600px;
+  height: 50px;
+  background-color: yellowgreen;
+  margin: 0 auto;
+}
+
+footer > div > ul {
+  display: flex;
+  justify-content: center;
+  line-height: 50px;
+}
+
+footer > div > ul > li {
+  padding: 0 20px;
+}
+
+/* 화면 컴퓨터상 크기 */
+@media (max-width: 1024px) {
+  body {
+    width: 95%;
+  }
+}
+/* 화면 타블렛상 크기 */
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    font-size: 48px;
+  }
+  .navv {
+    width: 100%;
+  }
+
+  .navv ul {
+    width: 100%;
+    font-size: 12px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  .navv ul li {
+    padding: 0 10px;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .article .art {
+    width: 100%;
+    height: 250px;
+  }
+
+  .article .art2 {
+    width: 100%;
+    height: 350px;
+  }
+  footer {
+    clear: both;
+    width: 100%;
+  }
+
+  footer div > ul > li {
+    padding: 0 8px;
+  }
+}
+/* 화면 핸드폰상 크기 */
+@media (max-width: 480px) {
+}

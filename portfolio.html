@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="/swiper-master/package/swiper-bundle.min.css">
+    <title>hwaik.portfolio</title>
+
+</head>
+<body>
+  <div id="body_main"></div>
+    <div class="one">
+        <ul>
+          <li><a href="#a">MAIN</a></li>
+          <li><a href="#two" name="main">INTRODUCE</a></li>
+          <li><a href="#three" name="main">WORKS</a></li>
+          <li><a href="#four" name="main">WEB</a></li>
+          <li><a href="#a">자기소개</a></li>
+          <li><a href="#a">자기소개</a></li>
+        </ul>
+
+        <div>
+         PortFolio.    
+        </div>
+    </div>
+  <div id="two">
+          <div class="two">
+              <div class="two_self">
+                <div>
+                  "뜨거운 열정보다 중요한 것은<br>
+                  지속적인 열정이다"
+                </div>
+                  <div>
+                    <p>조화익</p>
+                    <p>010.4658.3824</p>
+                    <p>hwaik.c@gamil.com</p>
+                  </div>
+
+                  <div>
+                    <ul class="icon">
+                      <li><a href="#a"><img src="" alt="">ㄱ</a></li>
+                      <li><a href="#a"><img src="" alt="">ㄴ</a></li>
+                      <li><a href="#a"><img src="" alt="">ㄷ</a></li>
+                    </ul>
+                  </div>
+              </div>
+
+              <div class="two_index">
+                <div>
+                  SKILL
+              </div>
+          </div>
+  </div>
+
+  <div id="three">
+    <div class="threebox">
+        <div class="three_text">
+        AD Design
+        </div>
+      <div class="three_text2">
+        본 작업물은 팀 프로젝트가 아닌 개인 작업물로 진행되어졌습니다<br>
+        본 작업물은 팀 프로젝트가 아닌 개인 작업물로 진행되어졌습니다<br>
+        본 작업물은 팀 프로젝트가 아닌 개인 작업물로 진행되어졌습니다
+      </div>
+
+    <!--슬라이더-->
+     <div class="three_slide">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="shose1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="shose2.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="shose3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="shose4.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="shose5.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        
+          <!-- Swiper JS -->
+          <script src="/swiper-master/package/swiper-bundle.min.js"></script>
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+              slidesPerView: 4,
+              direction: getDirection(),
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+              on: {
+                resize: function () {
+                  swiper.changeDirection(getDirection());
+                }
+              }
+            });
+        
+            function getDirection() {
+              var windowWidth = window.innerWidth;
+              var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+              return direction;
+            }
+          </script>
+    </div>
+    <!--슬라이더-->
+    </div>
+  </div>
+
+  <div id="four">
+    <div class="fourbox">
+      가나다라마바사
+    </div>
+    
+  </div>
+
+</body>
+</html>
