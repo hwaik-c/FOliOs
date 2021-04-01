@@ -1,24 +1,33 @@
 
 .one {
   width: 100%;
-  height: 930px;
+  height: 830px;
   background-color: black;
   display: flex;
   justify-content: center;
   position: relative;
 }
-.one ul {
-position: absolute;
-display: flex;
-
-margin:30px 0 0 1300px;
-}
-
-.one li a {
+.nav {
+  display: flex;
+  line-height: 100px;
+  width: 100%;
+  background-color: black;
+  height: 100px;
   color: white;
-  padding: 0 15px;
+  justify-content: flex-end;
 }
-.one div:nth-child(2) {
+
+.nav li a {
+  color: white;
+  margin: 0 15px;
+}
+
+.nav li :hover {
+  border-bottom: 2px solid white;
+  padding:0 0 10px 0;
+}
+
+.one div {
   align-self: center;
   font-size: 100px;
   color: white;
@@ -32,7 +41,7 @@ margin:30px 0 0 1300px;
   50%{ border-color: transparent; }
 }
  
-.one div:nth-child(2){
+.one div{
   width: 450px;
   overflow: hidden; 
   white-space: nowrap;
@@ -86,9 +95,12 @@ margin:30px 0 0 1300px;
 }
 
 .icon li {
-  padding: 5px 5px;
+  padding: 10px 5px;
 }
-
+.icon li img {
+  width: 20px;
+  height: 20px;
+}
 .threebox {
   height: 930px;
 }
