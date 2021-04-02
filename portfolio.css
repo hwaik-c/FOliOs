@@ -129,8 +129,10 @@ html {
 }
 
 #three {
+  width: 100%;
   height: 930px;
   background-color: #d1b6e1;
+  background: url(bg.png) no-repeat center;
 }
 
 .three_text {
@@ -161,7 +163,6 @@ html {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #d1b6e1;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,12 +176,13 @@ html {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  background: url(background.png) no-repeat center;
 }
 .swiper-slide img {
-  width: 1500px;
-  height: 720px;
+  width: 970px;
+  height: 630px;
   margin: 0 auto;
+  padding: 0 0 55px 0;
+  border-radius: 0.5%;
 }
 
 .fourbox {
