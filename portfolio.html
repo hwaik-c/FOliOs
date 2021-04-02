@@ -82,52 +82,121 @@
   <div id="three">
     <div class="threebox">
         <div class="three_text">
-        AD Design
+        POSTER DESIGN
         </div>
       <div class="three_text2">
-        본 작업물은 팀 프로젝트가 아닌 개인 작업물로 진행되어졌습니다<br>
-        본 작업물은 팀 프로젝트가 아닌 개인 작업물로 진행되어졌습니다<br>
-        본 작업물은 팀 프로젝트가 아닌 개인 작업물로 진행되어졌습니다
+        해당 작업물의 경우 순수 개인 창작물이며, 공모전 제출로 사용하였던 작업물입니다.
       </div>
 
     <!--슬라이더-->
      <div class="three_slide">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="shose1.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="shose2.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="shose3.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="shose4.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="shose5.jpg" alt=""></div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-        
-          <!-- Swiper JS -->
-          <script src="swiper-bundle.min.js"></script>
-          <!-- Initialize Swiper -->
-          <script>
-            var swiper = new Swiper('.swiper-container', {
-              slidesPerView: 4,
-              direction: getDirection(),
-              navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-              },
-              on: {
-                resize: function () {
-                  swiper.changeDirection(getDirection());
-                }
-              }
-            });
-        
-            function getDirection() {
-              var windowWidth = window.innerWidth;
-              var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-              return direction;
-            }
-          </script>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="" alt=""></div>
+          <div class="swiper-slide"><img src="" alt=""></div>
+          <div class="swiper-slide"><img src="" alt=""></div>
+          <div class="swiper-slide"><img src="" alt=""></div>
+          <div class="swiper-slide"><img src="" alt=""></div>
+          <div class="swiper-slide"><img src="" alt=""></div>
+          <div class="swiper-slide"><img src="" alt=""></div>
+          <div class="swiper-slide"><img src="" alt=""></div>
+          <div class="swiper-slide"><img src="" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    
+      <!-- Swiper JS -->
+      <script src="swiper-bundle.min.js"></script>
+    
+      <!-- Include plugin after Swiper -->
+      <script>
+        /* ========
+        Debugger plugin, simple demo plugin to console.log some of callbacks
+        ======== */
+        var myPlugin = {
+          name: 'debugger',
+          params: {
+            debugger: false,
+          },
+          on: {
+            init: function (swiper) {
+              if (!swiper.params.debugger) return;
+              console.log('init');
+            },
+            click: function (swiper, e) {
+              if (!swiper.params.debugger) return;
+              console.log('click');
+            },
+            tap: function (swiper, e) {
+              if (!swiper.params.debugger) return;
+              console.log('tap');
+            },
+            doubleTap: function (swiper, e) {
+              if (!swiper.params.debugger) return;
+              console.log('doubleTap');
+            },
+            sliderMove: function (swiper, e) {
+              if (!swiper.params.debugger) return;
+              console.log('sliderMove');
+            },
+            slideChange: function (swiper) {
+              if (!swiper.params.debugger) return;
+              console.log('slideChange', this.previousIndex, '->', this.activeIndex);
+            },
+            slideChangeTransitionStart: function (swiper) {
+              if (!swiper.params.debugger) return;
+              console.log('slideChangeTransitionStart');
+            },
+            slideChangeTransitionEnd: function (swiper) {
+              if (!swiper.params.debugger) return;
+              console.log('slideChangeTransitionEnd');
+            },
+            transitionStart: function (swiper) {
+              if (!swiper.params.debugger) return;
+              console.log('transitionStart');
+            },
+            transitionEnd: function (swiper) {
+              if (!swiper.params.debugger) return;
+              console.log('transitionEnd');
+            },
+            fromEdge: function (swiper) {
+              if (!swiper.params.debugger) return;
+              console.log('fromEdge');
+            },
+            reachBeginning: function (swiper) {
+              if (!swiper.params.debugger) return;
+              console.log('reachBeginning');
+            },
+            reachEnd: function (swiper) {
+              if (!swiper.params.debugger) return;
+              console.log('reachEnd');
+            },
+          },
+        };
+      </script>
+    
+      <script>
+        // Install Plugin To Swiper
+        Swiper.use(myPlugin);
+    
+        // Init Swiper
+        var swiper = new Swiper('.swiper-container', {
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          // Enable debugger
+          debugger: true,
+        });
+      </script>
     </div>
     <!--슬라이더-->
     </div>

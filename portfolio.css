@@ -5,7 +5,7 @@ html {
 .one {
   width: 100%;
   height: 830px;
-  background-color:#9DC8C8;
+  background-color: #9dc8c8;
   display: flex;
   justify-content: center;
   position: relative;
@@ -14,7 +14,7 @@ html {
   display: flex;
   line-height: 100px;
   width: 100%;
-  background-color: #9DC8C8;
+  background-color: #9dc8c8;
   height: 100px;
   color: white;
   justify-content: flex-end;
@@ -26,7 +26,7 @@ html {
 }
 
 .nav li:nth-child(6) {
-margin: 0 60px 0 0;
+  margin: 0 60px 0 0;
 }
 
 .nav li a {
@@ -36,7 +36,7 @@ margin: 0 60px 0 0;
 
 .nav li :hover {
   border-bottom: 2px solid white;
-  padding:0 0 10px 0;
+  padding: 0 0 10px 0;
 }
 
 .one div {
@@ -45,22 +45,24 @@ margin: 0 60px 0 0;
   color: white;
 }
 
-@keyframes typing{
-  from{ width: 0; }
-}
- 
-@keyframes cursor{
-  50%{ border-color: transparent; }
-}
- 
-.one div{
-  width: 450px;
-  overflow: hidden; 
-  white-space: nowrap;
-  animation: typing 1s steps(10),
-  cursor 1s steps(1) infinite;
+@keyframes typing {
+  from {
+    width: 0;
+  }
 }
 
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.one div {
+  width: 450px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 1s steps(10), cursor 1s steps(1) infinite;
+}
 
 .two {
   width: 100%;
@@ -72,7 +74,7 @@ margin: 0 60px 0 0;
   float: left;
   width: 20%;
   height: 930px;
-  background-color:#58C9B9;
+  background-color: #58c9b9;
   text-align: center;
   justify-content: center;
 }
@@ -84,19 +86,19 @@ margin: 0 60px 0 0;
   color: white;
 }
 
-.two_self >div:nth-child(2) img {
+.two_self > div:nth-child(2) img {
   width: 200px;
   height: 200px;
   margin: 150px 0 0 0;
   border-radius: 90%;
 }
-.two_self >div:nth-child(3) {
-font-size: 16px;
-color: white;
-margin: 30px 0 0 0;
+.two_self > div:nth-child(3) {
+  font-size: 16px;
+  color: white;
+  margin: 30px 0 0 0;
 }
 .two_self span p {
-  margin: 100px 0 0 0 ;
+  margin: 100px 0 0 0;
   color: white;
 }
 
@@ -104,9 +106,8 @@ margin: 30px 0 0 0;
   float: left;
   width: 80%;
   height: 930px;
-  background-color:#519D9E;
+  background-color: #519d9e;
 }
-
 
 .icon {
   display: flex;
@@ -128,38 +129,39 @@ margin: 30px 0 0 0;
 }
 
 #three {
-  background-color: #D1B6E1;
-}
-.threebox {
   height: 930px;
+  background-color: #d1b6e1;
 }
 
 .three_text {
-font-size: 50px;
-font-weight: bold;
-color: black;
-display: flex;
-justify-content: center;
-padding: 40px 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  line-height: 100px;
 }
 
 .three_text2 {
+  height: 30px;
   display: flex;
   justify-content: center;
   font-size: 14px;
-  padding: 0 0 80px 0;
+  color: black;
 }
-
 
 /* AD슬라이더 */
 
+.swiper-container {
+  width: 100%;
+  height: 800px;
+}
 
-.swiper-slide{ 
+.swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #D1B6E1;
-
-
+  background: #d1b6e1;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,10 +175,12 @@ padding: 40px 0;
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  background: url(background.png) no-repeat center;
 }
 .swiper-slide img {
-  width: 400px;
-  height: 500px;
+  width: 1500px;
+  height: 720px;
+  margin: 0 auto;
 }
 
 .fourbox {
@@ -184,14 +188,3 @@ padding: 40px 0;
   width: 100%;
   background-color: yellow;
 }
-
-@media (max-width: 760px) {
-  .swiper-button-next {
-    right: 20px;
-    transform: rotate(90deg);
-  }
-
-  .swiper-button-prev {
-    left: 20px;
-    transform: rotate(90deg);
-  }
