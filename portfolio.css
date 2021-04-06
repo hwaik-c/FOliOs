@@ -32,6 +32,7 @@ html {
 .nav li a {
   color: white;
   margin: 0 15px;
+  font-weight: bold;
 }
 
 .nav li :hover {
