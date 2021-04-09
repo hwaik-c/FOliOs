@@ -21,7 +21,6 @@ html {
 }
 .nav li {
   display: inline-block;
-
   font-size: 16px;
 }
 
@@ -31,7 +30,7 @@ html {
 
 .nav li a {
   color: white;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 .nav li :hover {
@@ -93,6 +92,7 @@ html {
   margin: 150px 0 0 0;
   border-radius: 90%;
   border: 3px solid rgb(231, 231, 231);
+  object-fit: cover;
 }
 .two_self > div:nth-child(3) {
   font-size: 20px;
@@ -106,41 +106,42 @@ html {
 /*              인덱스1           */
 .two_index {
   float: left;
-  width: 80%;
+  width: 40%;
   height: 940px;
   background-color: #519d9e;
+}
+
+.two_index .index_1 {
+  margin: 90px 0 0 120px;
+  font-size: 18px;
+  line-height: 35px;
 }
 .two_index .index_1 span {
   font-weight: bold;
   margin: 0 0 20px 0;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .two_index .index_1 ul {
-  margin-top: 20px;
-}
-
-.two_index .index_1 {
-  margin: 80px 0 0 80px;
-  font-size: 18px;
-  line-height: 35px;
+  margin: 20px 0 0 50px;
 }
 
 /*인덱스2*/
+
+.two_index .index_2 {
+  margin: 50px 0 0 120px;
+  font-size: 18px;
+  line-height: 35px;
+}
+
 .two_index .index_2 span {
   font-weight: bold;
   padding: 0 0 20px 0;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .two_index .index_2 ul {
-  margin-top: 20px;
-}
-
-.two_index .index_2 {
-  margin: 50px 0 0 80px;
-  font-size: 18px;
-  line-height: 35px;
+  margin: 20px 0 0 50px;
 }
 
 .two_index .index_2 p {
@@ -150,10 +151,152 @@ html {
   margin: -10px 0;
 }
 
+/*스킬부분 */
+.two_index2 {
+  color: white;
+  float: left;
+  width: 40%;
+  height: 940px;
+  background-color: #519d9e;
+}
+
+.two_index2 .skill {
+  margin: 90px 0 0 100px;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.two_index2 .skill span {
+  font-weight: bold;
+  margin: 0 0 20px 20px;
+  font-size: 32px;
+}
+
+.two_index2 .skill ul {
+  margin: 0px 0 0 50px;
+}
+
+.two_index2 .skill .photoshop {
+  border-radius: 5px;
+  background-color: white;
+  height: 30px;
+  width: 400px;
+}
+.two_index2 .skill .photoshop > p {
+  display: inline-block;
+  border: 15px solid blue;
+  border-radius: 5px;
+  width: 350px;
+  opacity: 0.7;
+  animation: stack 2s 1;
+}
+@keyframes stack {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 350px;
+  }
+}
+
+.two_index2 .skill .illustrator {
+  border-radius: 5px;
+  background-color: white;
+  height: 30px;
+  width: 400px;
+}
+.two_index2 .skill .illustrator > p {
+  display: inline-block;
+  border: 15px solid coral;
+  border-radius: 5px;
+  width: 280px;
+  opacity: 0.7;
+  animation: stack2 2s 1;
+}
+
+@keyframes stack2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 280px;
+  }
+}
+
+.two_index2 .skill .indesign {
+  border-radius: 5px;
+  background-color: white;
+  height: 30px;
+  width: 400px;
+}
+.two_index2 .skill .indesign > p {
+  display: inline-block;
+  border: 15px solid purple;
+  border-radius: 5px;
+  width: 250px;
+  opacity: 0.7;
+  animation: stack3 2s 1;
+}
+@keyframes stack3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 250px;
+  }
+}
+
+.two_index2 .skill .html {
+  border-radius: 5px;
+  background-color: white;
+  height: 30px;
+  width: 400px;
+}
+.two_index2 .skill .html > p {
+  display: inline-block;
+  border: 15px solid powderblue;
+  border-radius: 5px;
+  width: 300px;
+  opacity: 0.7;
+  animation: stack4 2s 1;
+}
+@keyframes stack4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 300px;
+  }
+}
+
+.two_index2 .skill .jvs {
+  border-radius: 5px;
+  background-color: white;
+  height: 30px;
+  width: 400px;
+}
+.two_index2 .skill .jvs > p {
+  display: inline-block;
+  border: 15px solid yellowgreen;
+  border-radius: 5px;
+  width: 200px;
+  opacity: 0.7;
+  animation: stack5 2s 1;
+}
+@keyframes stack5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
 .icon {
   display: flex;
   list-style: none;
   justify-content: center;
+  margin: 0 0 0 12px;
 }
 
 .icon li {
@@ -229,5 +372,5 @@ html {
 .fourbox {
   height: 940px;
   width: 100%;
-  background-color: yellow;
+  background-color: #285943;
 }
