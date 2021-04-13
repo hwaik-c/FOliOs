@@ -103,7 +103,29 @@ html {
   margin: 170px 0 0 0;
   color: white;
 }
-/*              인덱스1           */
+
+.icon {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0 0 0 12px;
+}
+
+.icon li {
+  padding: 10px 5px;
+}
+.icon li img {
+  width: 25px;
+  height: 25px;
+}
+
+/*              인덱스1         */
+
+.two_index div {
+  font-size: 30px;
+  color: white;
+}
+
 .two_index {
   float: left;
   width: 40%;
@@ -184,12 +206,14 @@ html {
 }
 .two_index2 .skill .photoshop > p {
   display: inline-block;
-  border: 15px solid blue;
+  border: 15px solid #58c9b9;
   border-radius: 5px;
   width: 350px;
   opacity: 0.7;
   animation: stack 2s 1;
+  animation-delay: 2s;
 }
+
 @keyframes stack {
   0% {
     width: 0;
@@ -207,11 +231,12 @@ html {
 }
 .two_index2 .skill .illustrator > p {
   display: inline-block;
-  border: 15px solid coral;
+  border: 15px solid #58c9b9;
   border-radius: 5px;
   width: 280px;
   opacity: 0.7;
   animation: stack2 2s 1;
+  animation-delay: 2s;
 }
 
 @keyframes stack2 {
@@ -231,11 +256,12 @@ html {
 }
 .two_index2 .skill .indesign > p {
   display: inline-block;
-  border: 15px solid purple;
+  border: 15px solid #58c9b9;
   border-radius: 5px;
   width: 250px;
   opacity: 0.7;
   animation: stack3 2s 1;
+  animation-delay: 2s;
 }
 @keyframes stack3 {
   0% {
@@ -254,18 +280,19 @@ html {
 }
 .two_index2 .skill .html > p {
   display: inline-block;
-  border: 15px solid powderblue;
+  border: 15px solid #58c9b9;
   border-radius: 5px;
-  width: 300px;
+  width: 280px;
   opacity: 0.7;
   animation: stack4 2s 1;
+  animation-delay: 2s;
 }
 @keyframes stack4 {
   0% {
     width: 0;
   }
   100% {
-    width: 300px;
+    width: 280px;
   }
 }
 
@@ -277,39 +304,66 @@ html {
 }
 .two_index2 .skill .jvs > p {
   display: inline-block;
-  border: 15px solid yellowgreen;
+  border: 15px solid #58c9b9;
   border-radius: 5px;
-  width: 200px;
+  width: 120px;
   opacity: 0.7;
   animation: stack5 2s 1;
+  animation-delay: 2s;
 }
 @keyframes stack5 {
   0% {
     width: 0;
   }
   100% {
-    width: 200px;
+    width: 120px;
   }
 }
 
-.icon {
+.two_index2 .like {
+  margin: 30px 0 0 120px;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.two_index2 .like span {
+  font-weight: bold;
+  padding: 0 0 20px 0;
+  font-size: 32px;
+}
+
+.two_index2 .like ul {
+  margin: 20px 0 0 50px;
+}
+
+.two_index2 .like p {
+  font-size: 12px;
+  text-indent: 50px;
+  color: rgb(231, 231, 231);
+  margin: -10px 0;
+}
+
+.two_index2 .hobby {
+  margin: 30px 0 0 120px;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.two_index2 .hobby span {
+  font-weight: bold;
+  padding: 0 0 20px 0;
+  font-size: 32px;
+}
+
+.two_index2 .hobby ul {
   display: flex;
-  list-style: none;
-  justify-content: center;
-  margin: 0 0 0 12px;
+  margin: 15px 0 0 50px;
 }
 
-.icon li {
-  padding: 10px 5px;
-}
-.icon li img {
-  width: 25px;
-  height: 25px;
-}
-
-.two_index div {
-  font-size: 30px;
-  color: white;
+.two_index2 .hobby ul li img {
+  width: 50px;
+  height: 50px;
+  padding: 0 10px;
 }
 
 #three {
@@ -369,8 +423,25 @@ html {
   border-radius: 0.5%;
 }
 
-.fourbox {
+#four {
   height: 940px;
   width: 100%;
-  background-color: #285943;
+  background-color: rgb(162, 162, 162);
+}
+.fourbox_text {
+  font-size: 40px;
+  font-weight: bold;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  line-height: 100px;
+}
+
+.fourbox_text2 {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: whitesmoke;
 }
