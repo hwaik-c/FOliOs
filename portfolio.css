@@ -477,11 +477,47 @@ html {
 }
 .fourbox_main .leaflet_text {
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   position: absolute;
   margin: 60px 0 0 0;
 }
 
+.fourbox_main .leaflet_text > div {
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 400px;
+  height: 70px;
+  margin: 15px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.fourbox_main .leaflet_text > div span {
+  font-size: 12px;
+  color: white;
+  align-self: center;
+  line-height: 20px;
+}
 .fourbox_main .leaflet {
   margin: 70px 0 0 0;
+}
+
+.fourbox_main .poster_text {
+  color: white;
+  font-size: 18px;
+  margin: 80px 0 0 0;
+}
+
+.fourbox_main .poster_text div {
+  width: 400px;
+  height: 70px;
+  margin: 15px 0 0 0;
+  background-color: rgb(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+}
+
+.fourbox_main .poster_text div span {
+  font-size: 12px;
+  color: white;
+  align-self: center;
+  line-height: 20px;
 }
