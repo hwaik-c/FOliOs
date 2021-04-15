@@ -224,8 +224,8 @@ html {
   border-radius: 5px;
   width: 350px;
   opacity: 0.7;
-  animation: stack 2s 1;
-  animation-delay: 2s;
+  animation: stack 3s 1;
+  animation-delay: 3s;
 }
 
 @keyframes stack {
@@ -249,8 +249,8 @@ html {
   border-radius: 5px;
   width: 280px;
   opacity: 0.7;
-  animation: stack2 2s 1;
-  animation-delay: 2s;
+  animation: stack2 3s 1;
+  animation-delay: 3s;
 }
 
 @keyframes stack2 {
@@ -274,8 +274,8 @@ html {
   border-radius: 5px;
   width: 250px;
   opacity: 0.7;
-  animation: stack3 2s 1;
-  animation-delay: 2s;
+  animation: stack3 3s 1;
+  animation-delay: 3s;
 }
 @keyframes stack3 {
   0% {
@@ -298,8 +298,8 @@ html {
   border-radius: 5px;
   width: 280px;
   opacity: 0.7;
-  animation: stack4 2s 1;
-  animation-delay: 2s;
+  animation: stack4 3s 1;
+  animation-delay: 3s;
 }
 @keyframes stack4 {
   0% {
@@ -322,8 +322,8 @@ html {
   border-radius: 5px;
   width: 120px;
   opacity: 0.7;
-  animation: stack5 2s 1;
-  animation-delay: 2s;
+  animation: stack5 3s 1;
+  animation-delay: 3s;
 }
 @keyframes stack5 {
   0% {
@@ -457,7 +457,7 @@ html {
 .fourbox_text2 span {
   height: 40px;
   font-size: 16px;
-  color: whitesmoke;
+  color: white;
 }
 .fourbox_text2 > div > h1 {
   display: inline-block;
@@ -542,13 +542,54 @@ html {
 }
 
 .fivebox_head {
-  float: right;
-  margin: 50px 0;
+  width: 1600px;
+  height: 150px;
+  text-align: end;
+  padding: 50px 0 0 0;
 }
 
 .fivebox_head h1 {
+  display: inline-block;
   color: white;
   font-size: 36px;
+  font-weight: bold;
   border-bottom: 5px solid white;
   padding-bottom: 5px;
+}
+
+.fivebox_head h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 15px 0;
+}
+
+.five_text {
+  float: right;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.five_text p {
+  text-align: end;
+}
+.five_text > div {
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 450px;
+  height: 70px;
+  margin: 15px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.five_text > div span {
+  font-size: 14px;
+  color: white;
+  align-self: center;
+  line-height: 20px;
+  font-weight: lighter;
+}
+
+.seoul img {
+  margin: 20px 0 0 0;
+  border-radius: 10px;
 }
