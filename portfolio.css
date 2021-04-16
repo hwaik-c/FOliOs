@@ -18,18 +18,20 @@ html {
 }
 .one {
   width: 100%;
-  height: 840px;
+  height: 940px;
   background-color: #9dc8c8;
   display: flex;
   justify-content: center;
   position: relative;
 }
 .nav {
+  position: fixed;
+  z-index: 10;
+  top: 0;
   display: flex;
-  line-height: 100px;
+  line-height: 80px;
   width: 100%;
-  background-color: #9dc8c8;
-  height: 100px;
+  height: 80px;
   color: white;
   justify-content: flex-end;
 }
@@ -408,7 +410,7 @@ html {
 
 .swiper-container {
   width: 100%;
-  height: 810px;
+  height: 795px;
 }
 
 .swiper-slide {
@@ -529,51 +531,52 @@ html {
   margin: 30px 0 0 0;
 }
 
-#five {
+/* four2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#four2 {
   background-color: #d9d4cf;
   width: 100%;
-  height: 940px;
+  height: 1500px;
 }
-.fivebox {
+.fourbox2 {
   width: 1600px;
   margin: 0 auto;
   height: 1880px;
-  background-color: hotpink; /* 추후 제거할 배경 */
+  /* background-color: hotpink; 추후 제거할 배경 */
 }
 
-.fivebox_head {
+.fourbox2_head {
   width: 1600px;
   height: 150px;
   text-align: end;
   padding: 50px 0 0 0;
 }
 
-.fivebox_head h1 {
+.fourbox2_head h1 {
   display: inline-block;
-  color: white;
+  color: rgb(70, 70, 70);
   font-size: 36px;
   font-weight: bold;
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid rgb(70, 70, 70);
   padding-bottom: 5px;
 }
 
-.fivebox_head h3 {
-  color: white;
+.fourbox2_head h3 {
+  color: rgb(70, 70, 70);
   font-size: 16px;
   font-weight: lighter;
   margin: 15px 0;
 }
 
-.five_text {
+.four2_text {
   float: right;
-  color: white;
+  color: rgb(70, 70, 70);
   font-size: 18px;
   font-weight: bold;
 }
-.five_text p {
+.four2_text p {
   text-align: end;
 }
-.five_text > div {
+.four2_text > div {
   background-color: rgb(0, 0, 0, 0.3);
   width: 450px;
   height: 70px;
@@ -581,7 +584,70 @@ html {
   display: flex;
   justify-content: center;
 }
-.five_text > div span {
+.four2_text > div span {
+  font-size: 14px;
+  color: white;
+  align-self: center;
+  line-height: 20px;
+  font-weight: lighter;
+  text-align: end;
+}
+
+.seoul img {
+  margin: 20px 0 0 0;
+  border-radius: 10px;
+}
+/* four2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* four3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#four3 {
+  background-color: #d9d4cf;
+  width: 100%;
+  height: 940px;
+}
+.fourbox3 {
+  width: 1600px;
+  margin: 0 auto;
+  height: 1880px;
+  /* background-color: hotpink; 추후 제거할 배경 */
+}
+
+.fourbox3_head {
+  width: 1600px;
+  height: 150px;
+  padding: 50px 0 0 0;
+}
+
+.fourbox3_head h1 {
+  display: inline-block;
+  color: rgb(70, 70, 70);
+  font-size: 36px;
+  font-weight: bold;
+  border-bottom: 5px solid rgb(70, 70, 70);
+  padding-bottom: 5px;
+}
+
+.fourbox3_head h3 {
+  color: rgb(70, 70, 70);
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 15px 0;
+}
+
+.four3_text {
+  color: rgb(70, 70, 70);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.four3_text > div {
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 450px;
+  height: 70px;
+  margin: 15px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.four3_text > div span {
   font-size: 14px;
   color: white;
   align-self: center;
@@ -589,7 +655,7 @@ html {
   font-weight: lighter;
 }
 
-.seoul img {
+.sanhak img {
   margin: 20px 0 0 0;
   border-radius: 10px;
 }
