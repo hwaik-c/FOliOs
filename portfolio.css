@@ -724,18 +724,18 @@ html {
 
 .webbox {
   width: 1600px;
-  height: 300px;
+  height: 270px;
   background-color: white;
 }
 
 .webbox_texthead {
-  padding: 20px 0 0 30px;
+  padding: 20px 0 0 50px;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: bold;
 }
 .webbox_textmid {
-  margin: 20px 0 0 30px;
+  margin: 20px 0 0 50px;
   font-size: 32px;
   font-weight: bold;
 }
@@ -743,4 +743,34 @@ html {
 .webbox_textmid p {
   margin: 0 0 0 5px;
   font-size: 12px;
+}
+.webbox_ul {
+  display: flex;
+}
+
+.web_libox {
+  position: relative;
+}
+.web_libox ul {
+  font-weight: bold;
+  margin: 20px 0 0 55px;
+  line-height: 24px;
+}
+
+.web_litext ul {
+  margin: 20px 0 0 55px;
+  line-height: 24px;
+}
+
+.web_text {
+  width: 680px;
+  height: 100px;
+  margin: 30px 0 0 150px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.web_logo img {
+  width: 200px;
+  height: 100px;
+  margin: 0 0 0 200px;
 }
