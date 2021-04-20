@@ -107,7 +107,7 @@ html {
   height: 200px;
   margin: 150px 0 0 0;
   border-radius: 90%;
-  border: 3px solid rgb(231, 231, 231);
+
   object-fit: cover;
 }
 .two_self > div:nth-child(3) {
@@ -157,7 +157,7 @@ html {
 .two_index .index_1 span {
   font-weight: bold;
   margin: 0 0 20px 0;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .two_index .index_1 ul {
@@ -175,7 +175,7 @@ html {
 .two_index .index_2 span {
   font-weight: bold;
   padding: 0 0 20px 0;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .two_index .index_2 ul {
@@ -207,7 +207,7 @@ html {
 .two_index2 .skill span {
   font-weight: bold;
   margin: 0 0 20px 20px;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .two_index2 .skill ul {
@@ -345,7 +345,7 @@ html {
 .two_index2 .like span {
   font-weight: bold;
   padding: 0 0 20px 0;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .two_index2 .like ul {
@@ -368,7 +368,7 @@ html {
 .two_index2 .hobby span {
   font-weight: bold;
   padding: 0 0 20px 0;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .two_index2 .hobby ul {
@@ -434,7 +434,7 @@ html {
   width: 970px;
   height: 630px;
   margin: 0 auto;
-  padding: 0 0 55px 0;
+  padding: 0 0 42px 0;
   border-radius: 0.5%;
 }
 
@@ -566,6 +566,9 @@ html {
   font-weight: lighter;
   margin: 15px 0;
 }
+.fourbox2_head h4 {
+  margin-top: -10px;
+}
 
 .four2_text {
   float: right;
@@ -597,12 +600,13 @@ html {
   margin: 20px 0 0 0;
   border-radius: 10px;
 }
+
 /* four2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* four3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 #four3 {
-  background-color: #d9d4cf;
+  background-color: #cfcfcf;
   width: 100%;
-  height: 940px;
+  height: 1880px;
 }
 .fourbox3 {
   width: 1600px;
@@ -641,7 +645,7 @@ html {
 
 .four3_text > div {
   background-color: rgb(0, 0, 0, 0.3);
-  width: 450px;
+  width: 780px;
   height: 70px;
   margin: 15px 0 0 0;
   display: flex;
@@ -658,4 +662,85 @@ html {
 .sanhak img {
   margin: 20px 0 0 0;
   border-radius: 10px;
+}
+
+.sanhak .lftext1 {
+  position: absolute;
+  margin: 35px 0 0 100px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+.sanhak .lftext2 {
+  position: absolute;
+  margin: 20px 0 0 100px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+.sanhak .lftext3 {
+  position: absolute;
+  margin: 10px 0 0 120px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+/* five 시작 */
+
+#five {
+  width: 100%;
+  height: 1880px;
+  background-color: #f1f1f1;
+}
+.fivebox {
+  width: 1600px;
+  margin: 0 auto;
+  height: 1880px;
+  /* background-color: hotpink; 추후 제거할 배경 */
+}
+.fivebox {
+  width: 1600px;
+  height: 150px;
+  padding: 30px 0 0 0;
+}
+
+.fivehead h1 {
+  display: inline-block;
+  color: rgb(70, 70, 70);
+  font-size: 36px;
+  font-weight: bold;
+  border-bottom: 5px solid rgb(70, 70, 70);
+  padding-bottom: 5px;
+  margin: 0 0 15px 0;
+}
+
+.webbox {
+  width: 1600px;
+  height: 300px;
+  background-color: white;
+}
+
+.webbox_texthead {
+  padding: 20px 0 0 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.webbox_textmid {
+  margin: 20px 0 0 30px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.webbox_textmid p {
+  margin: 0 0 0 5px;
+  font-size: 12px;
 }
