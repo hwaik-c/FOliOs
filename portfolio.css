@@ -322,7 +322,7 @@ html {
   display: inline-block;
   border: 15px solid #58c9b9;
   border-radius: 5px;
-  width: 120px;
+  width: 60px;
   opacity: 0.7;
   animation: stack5 3s 1;
   animation-delay: 3s;
@@ -332,7 +332,7 @@ html {
     width: 0;
   }
   100% {
-    width: 120px;
+    width: 60px;
   }
 }
 
